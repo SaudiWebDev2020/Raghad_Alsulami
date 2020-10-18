@@ -1,0 +1,182 @@
+body { 
+    margin: 0;
+    width: 970px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#header { 
+    display: flex;
+    height: 100px;
+    background-color: #245076;
+    padding: 10px 0 10px 0;
+}
+
+#header a { 
+    color: #FDD230;
+}
+
+.logo { 
+    width: 40%;
+    margin-left: 20px;
+}
+
+#left-box { 
+    margin: 10px 30px 0 auto;
+    text-align: center;
+}
+
+.text-size { 
+    color: white;
+}
+
+.space { 
+    color: black;
+}
+
+#search-box  { 
+    background-color: #444444;
+    padding: 20px 20px 20px 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+#container1 {
+    background-color: #245076;
+    padding: 0 50px 0 50px;
+}
+
+.menu-bar { 
+    background-color: #437CAD;
+    color:white;
+    list-style: none;
+    display: flex;
+    height: 40px;
+    font-size: 20px;
+    margin: 0 auto 0 auto;
+    border-radius: 5px;
+    padding-left: 0;
+}
+
+.menu-bar li { 
+    margin: 6px auto 0 auto; 
+}
+
+#main-contant { 
+    display: flex;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    justify-content: space-between;
+    margin: 0 60px 0 60px;
+}
+
+.navigator { 
+    color: #FDD230;
+    list-style-type: square;
+    font-size: medium;
+    list-style-position: inside;
+}
+
+.navigator li {
+    padding-bottom: 10px;
+}
+
+.navigator a {
+    color:white;
+}
+
+.text{ 
+    font-size: large;
+    padding: 5px 0 5px 0;
+    color: #FCD130;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+#first-text{ 
+    font-size: small;
+    color: white;
+    padding-bottom: 5px;
+    width: 500px;
+}
+
+#last-text { 
+    font-size: medium;
+    color: white;
+    padding-top: 5px;
+}
+
+/*--------------------*/
+
+#container2 { 
+    display: flex;
+    background-color: white;
+    justify-content:space-evenly;
+    padding: 20px 0 5px 0;
+}
+
+.sub-contant{
+    border-top: 5px solid #73A7D5;
+    text-align: center;
+    padding-top: 5px;
+    width: 400px;
+    list-style-position: inside;
+}
+
+.sub-contant h4, p{ 
+    margin: 0;
+    text-align: center;
+}
+
+.sub-contant p, ul {
+    font-size: smaller;
+}
+
+.sub-contant h4 {
+    padding: 10px 0 10px 0;
+}
+
+.sub-contant p {
+    width: 250px;
+    margin: 0 auto 0 auto;
+}
+
+.sub-contant ul {
+    margin-top: 0;
+    padding-left: 0;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.sub-contant a{
+    color: #76A9D6;
+    text-decoration: none;
+}
+
+/*------------------*/
+
+#footer { 
+    background-color: #306FA4;
+    text-align: center;
+    padding: 40px 0 5px 0;
+}
+
+.link, .copy { 
+    color: white;
+    opacity: .5;
+}
+
+.link { 
+    text-decoration: none;
+    font-size: medium;
+    padding-right: 50px;
+
+}
+
+.copy { 
+    padding-top: 10px;
+    font-size: small;
+}
+
+
+
+

@@ -1,0 +1,59 @@
+body { 
+    width: 970px;
+}
+
+.wrapper { 
+    background: darkblue;
+    color: aliceblue;
+}
+
+.header { 
+    background: red;
+    border-radius: 10px;
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+.navigation { 
+    background-color: darkcyan;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 20px;
+    float: left;
+    padding-left: 5px;
+}
+.navigation a {
+    color: cyan;
+}
+
+.main-content { 
+    background-color: black;
+    border-radius: 10px;
+    width: 700px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+.title { 
+    color: cyan;
+    text-decoration: underline;
+}
+
+.highlight { 
+    color: purple;
+}
+
+.tail { 
+    background-color: gray;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+
+}
+
