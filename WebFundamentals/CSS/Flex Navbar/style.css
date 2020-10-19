@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+}
+
+.center-box {
+    background-color: darkblue;
+    height: 250px;
+}
+
+.center-item { 
+    background-color: wheat;
+    width: 80px;
+    height: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+}
+
+.header { 
+    background: skyblue;
+    height: 80px;
+}
+
+.logo { 
+    width: 60px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.header h1 {
+    float: left;
+    overflow: hidden;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 40px;
+}
+
+.header ul{ 
+    overflow: hidden;
+    padding-left: 50px;
+
+}
+
+.header li{ 
+    display: inline-block;
+
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
