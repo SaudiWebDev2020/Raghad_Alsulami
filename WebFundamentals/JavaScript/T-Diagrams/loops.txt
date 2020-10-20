@@ -1,0 +1,50 @@
+T-Diagram
+
+
+Predict 1:
+
+attribute -> value	(Output)
+----------------------- --------------
+num -> 0		0 
+num -> 1		1 
+num -> 2		2 
+num -> 3		3 
+num -> 4		4 
+num -> 5		5 
+num -> 6		6 
+num -> 7		7 
+num -> 8		8 
+num -> 9		9 
+num -> 10		10 
+num -> 11		11 
+num -> 12		12
+num -> 13		13
+num -> 14		14
+
+
+Predict 2:
+
+attribute -> value	(Output)
+----------------------- --------------
+num -> 1
+num -> 3		3
+num -> 5
+num -> 7
+num -> 9		9
+
+
+Predict 3:
+
+attribute -> value	(Output)
+-----------------------	--------------
+num -> 1		1
+num -> 2		
+num -> 4
+num -> 6
+num -> 7		7
+num -> 8		
+num -> 10		
+num -> 12
+num -> 14
+num -> 16
+		

@@ -1,0 +1,40 @@
+* {
+    font-size: 0;
+}
+#wrapper{
+    position: relative;
+}
+.wall {
+    height: 50px;
+    width: 50px;
+    background-image: url('./images/wall.png');
+    display: inline-block;
+}
+.blank {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.coin {
+    height: 50px;
+    width: 50px;
+    background-image: url('./images/cherry.gif');
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pacman{
+    height: 50px;
+    width: 50px;
+    background-image: url('./images/pacman.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border:1px dotted red;
+}
+#score{
+    border:2px solid black;
+    padding:10px 30px;
+    font-size: large;
+    display: inline-block
+}
