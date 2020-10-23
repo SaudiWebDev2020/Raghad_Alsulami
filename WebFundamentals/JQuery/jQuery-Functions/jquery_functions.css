@@ -1,0 +1,24 @@
+body { 
+    margin: 0;
+    background-color: lightcyan;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.contant {
+    display: block;
+}
+
+p {
+    
+    margin: 50px 300px 0px 300px;
+}
+
+img { 
+    margin: 50px 300px 0px 300px;
+}
+
+.changeTextColor { 
+    color: red;
+}
+
