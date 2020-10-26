@@ -1,0 +1,62 @@
+Friendships
+
+1- Return all users who are friends with Kermit, make sure their names are displayed in results.
+
+SELECT u.first_name, u.last_name, u2.first_name as friend_first_name, u2.last_name as friend_last_name  
+FROM users as u
+LEFT JOIN friendships AS f ON u.id = f.friend_id 
+LEFT JOIN users as u2 ON f.user_id = u2.id
+WHERE u.first_name LIKE 'Kermit';
+
+
+
+2- Return the count of all friendships
+
+
+SELECT COUNT(*) AS count
+FROM friendships;
+
+
+3- Find out who has the most friends and return the count of their friends.
+
+
+SELECT u.id, u.first_name, u.last_name, COUNT(*) AS count
+FROM users AS u
+JOIN friendships AS f ON u.id = f.user_id
+LEFT JOIN users AS u2 ON f.friend_id = u2.id
+GROUP BY u.id;
+
+
+4- Create a new user and make them friends with Eli Byers, Kermit The Frog, and Marky Mark
+
+
+INSERT INTO friendships (friendships.id, friendships.user_id, friendships.friend_id, created_at)
+VALUES (7,2,4,'2019-02-08 11:18:22'), (8,2,5,'2019-02-08 11:19:25');
+
+
+5- Return the friends of Eli in alphabetical order.
+
+
+SELECT u.first_name, u.last_name, u2.first_name as friend_first_name, u2.last_name as friend_last_name  
+FROM users as u
+JOIN friendships AS f ON u.id = f.user_id 
+LEFT JOIN users as u2 ON f.friend_id = u2.id 
+WHERE u.first_name LIKE 'Eli' 
+ORDER BY friend_first_name ASC;
+
+
+6- Remove Marky Mark from Eli’s friends.
+
+
+DELETE FROM friendships
+WHERE friendships.friend_id = 5 AND friendships.user_id = 2;
+
+
+7- Return all friendships, displaying just the first and last name of both friends
+
+
+SELECT u.first_name, u.last_name, u2.first_name as friend_first_name, u2.last_name as friend_last_name  
+FROM users as u
+JOIN friendships AS f ON u.id = f.user_id 
+LEFT JOIN users as u2 ON f.friend_id = u2.id;
+

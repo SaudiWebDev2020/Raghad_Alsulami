@@ -1,0 +1,26 @@
+CRUD application
+
+// 1
+
+SELECT first_name, last_name, birthday
+FROM users
+WHERE birthday BETWEEN '1970-01-01' AND '1980-01-01';
+
+// 2 
+
+INSERT INTO faves (id, user_id, tweet_id, created_at, updated_at)
+VALUES (8,4,12,'2020-01-01','2020-01-01');
+
+// 3
+
+UPDATE tweets 
+SET tweet='Happy New Year..'
+WHERE id=12;
+
+// 4
+
+DELETE FROM tweets
+WHERE user_id =2;
+
+
+
