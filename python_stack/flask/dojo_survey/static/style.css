@@ -1,0 +1,37 @@
+body{ 
+    margin: 80px 0 80px 330px;
+}
+form { 
+    border: 2px solid black;
+    padding: 50px;
+    height: 270px;
+    width: 500px;
+}
+label{
+    display: block;
+    font-size: large;
+    height: 30px;
+}
+.box { 
+    float:right;
+    width: 190px;
+    height: 25px;
+}
+.name_box {
+    float:right;
+    width: 183px;
+    height: 20px;
+}
+.comment_box { 
+    display: block;
+    width: 500px;
+    height: 100px;
+}
+
+button { 
+    float: right;
+    background-color: aqua;
+    margin-top: 130px;
+    width: 100px;
+    height: 30px;
+}

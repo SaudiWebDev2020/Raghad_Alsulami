@@ -1,0 +1,18 @@
+body { 
+    margin: 0;
+    background-color: gray !important; 
+}
+
+form {
+    background: white;
+    width: 800px;
+    border-radius: 80px;
+    padding: 40px 0 40px 0;
+    margin: 100px 0 100px 0;;
+}
+
+img { 
+    display: block;
+    margin: 20px 0 50px 0;
+    width: 65%;
+}
